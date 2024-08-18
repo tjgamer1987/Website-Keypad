@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HID Pad</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <input type="password" id="pinpad-input" readonly />
+            </div>
+            <div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="1">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="2">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="3">
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="4">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="5">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="6">
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="7">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="8">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="9">
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button" class="pinpad-btn" value="del
+                            " id="delete-btn">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="0">
+                    </button>
+                    <button type="button" class="pinpad-btn" value="ok" id="submit-btn">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-body">
+                <span id="close"></span>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
